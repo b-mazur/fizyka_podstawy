@@ -37,7 +37,7 @@ st.title("Projectile Motion with Velocity Vector Components")
 
 # Sidebar for interactive parameter input
 st.sidebar.header("Simulation Parameters")
-y0    = st.sidebar.number_input("Initial Height (y0)", value=0.0, step=0.1)
+y0    = st.sidebar.number_input("Initial Height (y0)", value=10.0, step=0.1)
 ax_val = st.sidebar.number_input("Acceleration in x (ax)", value=0.0, step=0.1)
 ay_val = st.sidebar.number_input("Acceleration in y (ay)", value=-9.8, step=0.1)
 v0    = st.sidebar.number_input("Initial Speed (v0)", value=10.0, step=0.1)
